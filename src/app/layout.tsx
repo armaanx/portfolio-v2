@@ -18,12 +18,12 @@ export default function RootLayout({
     <html lang="en">
       <body
         className={cn(
-          "dark bg-[#111010] antialiased max-w-2xl mx-auto",
+          "dark bg-[#111010] antialiased max-w-2xl mx-auto flex flex-col min-h-screen",
           sora.className
         )}
       >
         {children}
-        <footer className="border-t bottom-0 p-4 max-w-2xl mx-auto">
+        <footer className="border-t bottom-0 p-4 max-w-2xl  mt-auto">
           <p className="text-xs text-muted-foreground text-center">
             made with ❤️
           </p>
