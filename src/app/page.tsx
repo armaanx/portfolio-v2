@@ -3,7 +3,7 @@
 
 import { Github, LinkedIn, X } from "@/lib/Icons";
 import { skillIcons } from "@/lib/skill-names";
-import { Mail, MailCheck } from "lucide-react";
+import { Mail } from "lucide-react";
 import Link from "next/link";
 
 export default function Home() {
@@ -16,7 +16,13 @@ export default function Home() {
         <p className=" text-pretty">
           Full stack developer who loves building cool stuff. I enjoy good
           coffee, watching movies, and making digital art. Always excited to
-          learn new tech and start fun projects.
+          learn new tech and start fun projects. More{" "}
+          <Link
+            href={"/about"}
+            className="underline underline-offset-2 text-blue-400"
+          >
+            about me.
+          </Link>
           <br />
           here's my{" "}
           <Link
