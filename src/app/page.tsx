@@ -2,7 +2,6 @@
 /* eslint-disable react/no-unescaped-entities */
 
 import { Github, LinkedIn, X } from "@/lib/Icons";
-import { skillIcons } from "@/lib/skill-names";
 import { Mail } from "lucide-react";
 import Link from "next/link";
 
