@@ -27,7 +27,9 @@ export default function Home() {
         <p className="">
           here's my{" "}
           <Link
-            href={"/"}
+            target="_blank"
+            rel="noreferrer noopener"
+            href={"/ArmaanMishraResume.pdf"}
             className="underline underline-offset-2 text-sky-400"
           >
             resume.
@@ -39,16 +41,32 @@ export default function Home() {
         id="socials"
         className="flex flex-row items-center justify-start gap-8 mt-2 border-b pb-8"
       >
-        <Link href={"/"}>
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href={"https://github.com/armaanx/"}
+        >
           <Github className="h-6 w-6 fill-foreground/95 hover:fill-white hover:scale-[1.2] transition-all" />
         </Link>
-        <Link href={"/"}>
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href={"https://www.linkedin.com/in/armaanx"}
+        >
           <LinkedIn className="h-6 w-6 fill-foreground/95 hover:fill-white hover:scale-[1.2] transition-all" />
         </Link>
-        <Link href={"/"}>
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href={"https://www.x.com/armaanmishra131/"}
+        >
           <X className="h-6 w-6 fill-foreground/95 hover:fill-white hover:scale-[1.2] transition-all" />
         </Link>
-        <Link href={"/"}>
+        <Link
+          target="_blank"
+          rel="noopener noreferrer"
+          href={"mailto:armaanmishra48@gmail.com"}
+        >
           <Mail className="h-[24px] w-[24px] text-foreground/95 hover:text-white hover:scale-[1.2] transition-all" />
         </Link>
       </section>
@@ -59,31 +77,25 @@ export default function Home() {
           <li>
             <div>
               <Link
-                href={"/grainify"}
+                href={"/projects/grainify"}
                 className="font-semibold tracking-wide inline-block mr-2 text-sky-400 underline underline-offset-2"
               >
                 Grainify
               </Link>
-              {/* <p className="inline-block text-sm italic text-zinc-200">
-                Next.js, Tailwind CSS, TypeScript, Web Workers
-              </p> */}
               <p className="text-[15px] mt-1 inline">
-                - A web based photo editor to add vintage effects to your
-                photos.
+                - A web based photo editor that lets you add vintage effects to
+                your photos.
               </p>
             </div>
           </li>
           <li>
             <div>
               <Link
-                href={"/spotify-music-cards"}
+                href={"/projects/spotify-music-cards"}
                 className="font-semibold tracking-wide inline-block mr-2 text-sky-400 underline underline-offset-2"
               >
                 Spotify Music Cards
               </Link>
-              {/* <p className="inline-block text-sm italic text-zinc-200">
-                Next.js, Tailwind CSS, TypeScript, Spotify Web API, NextAuth
-              </p> */}
               <p className="text-[15px] mt-1 inline">
                 - A tool that generates beautiful cards for your Spotify top
                 tracks and artists.
@@ -93,14 +105,11 @@ export default function Home() {
           <li>
             <div>
               <Link
-                href={"/passprotect"}
+                href={"/projects/passprotect"}
                 className="font-semibold tracking-wide inline-block mr-2 text-sky-400 underline underline-offset-2"
               >
                 PassProtect
               </Link>
-              {/* <p className="inline-block text-sm italic text-zinc-200">
-                React.js, JavaScript, Firebase
-              </p> */}
               <p className="text-[15px] mt-1 inline">
                 - A cloud based password manager that lets you add/delete/edit
                 passwords securely using 256 bit AES encryption.
@@ -110,14 +119,11 @@ export default function Home() {
           <li>
             <div>
               <Link
-                href={"/cat-albums"}
+                href={"/projects/cat-albums"}
                 className="font-semibold tracking-wide inline-block mr-2 text-sky-400 underline underline-offset-2"
               >
                 Cat Albums
               </Link>
-              {/* <p className="inline-block text-sm italic text-zinc-200">
-                Next.js, TypeScript, HTML Canvas, LastFM API
-              </p> */}
               <p className="text-[15px] mt-1 inline">
                 - A silly little tool that lets you generate a cat holding your
                 favorite album covers.
