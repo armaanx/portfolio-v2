@@ -53,7 +53,7 @@ const ProjectPage = ({ params }: { params: { projectName: string } }) => {
           {images.map((image, index) => (
             <CarouselItem className="" key={index}>
               <img
-                className="h-full w-full aspect-video object-cover"
+                className="h-full w-full aspect-video object-cover rounded-xl"
                 src={image}
                 alt=""
               />
