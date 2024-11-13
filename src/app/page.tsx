@@ -28,7 +28,9 @@ export default function Home() {
           <Link
             target="_blank"
             rel="noreferrer noopener"
-            href={"/ArmaanMishraResume.pdf"}
+            href={
+              "https://drive.google.com/file/d/1uvlR32EBNqfeGb-QSRDtA1Dex7kNaSG4/view?usp=sharing"
+            }
             className="underline underline-offset-2 text-sky-400"
           >
             resume.
