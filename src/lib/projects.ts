@@ -32,10 +32,10 @@ export const projectDetails: { [key: string]: ProjectDetails } = {
       "Spotify Music Cards is a tool that displays your top tracks and artists in an aesthetic format. Using the Spotify API, it fetches data and allows users to choose between three time ranges: week, month, and year. After review, Spotify granted an API Quota Extension for this project. Inspired by Receiptify, this was my first project that I built using Next.js.",
     techStack: "Next.js, TypeScript, Tailwind CSS, Next Auth, Spotify Web API",
     links: {
-      source: "https://github.com/armaanx/spotify-top-ten",
-      demo: "https://music-card-generator.vercel.app/",
+      source: "https://github.com/armaanx/music-cards-v2",
+      demo: "https://music-cards-v2.vercel.app/",
     },
-    images: ["/smc1.png", "/smc2.png", "/smc3.png"],
+    images: ["/smc1.png", "/smc2.png", "/smc3.png", "/smc4.png", "/smc5.png"],
   },
 
   passprotect: {
