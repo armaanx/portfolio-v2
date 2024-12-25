@@ -29,7 +29,7 @@ export default function Home() {
             target="_blank"
             rel="noreferrer noopener"
             href={
-              "https://drive.google.com/file/d/1uvlR32EBNqfeGb-QSRDtA1Dex7kNaSG4/view?usp=sharing"
+              "https://drive.google.com/file/d/1vathB7JNs0ezNDPU_4to935lUsGnolQI/view?usp=sharing"
             }
             className="underline underline-offset-2 text-sky-400"
           >
